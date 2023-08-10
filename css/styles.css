@@ -105,21 +105,23 @@
  align-items: center;
 }
  
- 
- /* style on main */
- 
  /* hero section */
  
  .hero-section {
-    background-color: var(--hero-background);
     display: flex;
+    max-width: 1440px;
+    background-color: var(--hero-background);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
     text-align: center;
     padding: 188px 0;
+    margin: 0 auto;
 }
  
  .hero-title {
      color: var(--white-background);
-     font-size: 56px;
+     font-size: 56px; 
      font-weight: 700;
      line-height: 1.07;
      letter-spacing: 1.12px;
@@ -247,8 +249,28 @@
      line-height: 1.5; /* 1,5 */
      letter-spacing: 0.02em;
      text-align: center;
- 
  }
+
+ .soc-media-grup {
+    fill: var(--primary-dark);
+    gap: 24px;
+ }
+ /* customers section */
+.customers-section {
+    display: flex;
+    padding: 120px 0;
+}
+.customers {
+    color: var(--dark);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+}
+
  /* buttons sections */
  .butt-section {
      padding-top: 96px; 
