@@ -421,8 +421,26 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 264px;
+    margin-bottom: 16px; 
+
 }
- 
+.footer-cont {
+    display: flex;
+    align-items: baseline;
+}
+.footer-title {
+    color: var(--white-background);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.soc-media-grup {
+    display: flex; 
+    gap: 16px; 
+
+}
  
  /* FlexBox  header*/
  
