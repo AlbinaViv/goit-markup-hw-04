@@ -268,16 +268,21 @@
  }
 .soc-media {
     display: flex; 
-    list-style: none;
+    
+
+}
+ .icons-soc-media {
+    display: flex;
     align-items: center;
-    fill: var(--primary-dark);
+    width: 40px; 
+    height: 40px; 
+    background-color: var(--primary-dark);
+    border-radius: 50%;
+    list-style: none;
+    fill: var(--light);
     justify-content: center;
     gap: 24px;
     margin-top: 8px;
-    border-radius: 50px;
-}
- .soc-media-grup {
-    
  }
  /* customers section */
 .customers-section {
