@@ -54,15 +54,15 @@
  
  /*  header*/
  
-.list-nav:hover {
+.list-nav-h:hover {
     color: var(--pressed-state);
 }
 
-.list-nav:focus {
+.list-nav-h:focus {
     color: var(--pressed-state);
 }   
 
-.list-nav-h {
+.list-nav {
     display: flex;
     gap: 40px;
     justify-content: center;
@@ -501,7 +501,7 @@
     align-items: center;
     position: relative; 
  }
- .list-nav, .link-mail-tel {
+ .list-nav-h, .link-mail-tel {
      padding: 24px 0;
      gap: 40px;
      color: var(--dark);
