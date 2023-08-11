@@ -64,14 +64,6 @@
 
 .list-nav-h {
     display: flex;
-    color: var(--dark);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.32px;
-    list-style: none;
-    text-decoration: none;
     gap: 40px;
     justify-content: center;
     
@@ -512,6 +504,15 @@
  .list-nav, .link-mail-tel {
      padding: 24px 0;
      gap: 40px;
+     color: var(--dark);
+     font-size: 16px;
+     font-style: normal;
+     font-weight: 500;
+     line-height: 1.5;
+     letter-spacing: 0.32px;
+     list-style: none;
+     text-decoration: none;
+
  }
  
  
