@@ -355,6 +355,7 @@
 
  .link-client:focus {
     color: var(--pressed-state);
+    border-color:var(--pressed-state);
  }
 
  /* buttons sections */
