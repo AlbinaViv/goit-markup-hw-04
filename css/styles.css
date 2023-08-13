@@ -130,7 +130,7 @@ header .container {
     color: var(--pressed-state);
 } 
 
-.list-nav-h.current {
+.current {
     position: relative;
     color: var(--pressed-state);
 }
@@ -305,28 +305,7 @@ header .container {
     margin-bottom: 8px;
 }
 
- /* ------doing section------*/
- 
- .doing-section {
-    padding-bottom: 120px;
-}
-.doing {
-   color: var(--dark);
-   font-size: 36px;
-   font-weight: 700;
-   line-height: 1.11;
-   letter-spacing: 0.72px;
-   text-transform: capitalize;
-   text-align: center;
-   margin-bottom: 72px;
-}
 
-.list-doing {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px; 
-    flex-basis: calc((100% - 48px); 
-}
 
   /*team-section*/
   
@@ -470,7 +449,6 @@ header .container {
  }
 
  /* portfolio buttons sections */
-
  .butt-section {
      padding-top: 96px; 
      padding-bottom: 120px; 
@@ -529,9 +507,8 @@ header .container {
      line-height: 1.2;
      letter-spacing: 0.4px;
      margin-bottom: 8px;
- }
      
-
+ }
  .post {
    color: var(--text);  
    font-size: 16px;
@@ -540,7 +517,30 @@ header .container {
    line-height: 1.5;
    letter-spacing: 0.32px;
  }
- 
+ .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 48px;
+    column-gap: 24px; 
+}
+.card-set-item {
+    width: calc((100% - 48px) / 3);
+    background: var(--white-background);
+}
+
  /* footer */
  
  .footer {
@@ -620,28 +620,5 @@ header .container {
     background-color: var(--success); 
 } 
  
- .visually-hidden {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     margin: -1px;
-     border: 0;
-     padding: 0;
-     white-space: nowrap;
-     clip-path: inset(100%);
-     clip: rect(0 0 0 0);
-     overflow: hidden;
-   }
- 
- .card-set {
-     display: flex;
-     flex-wrap: wrap;
-     row-gap: 48px;
-     column-gap: 24px; 
- }
- .card-set-item {
-     width: calc((100% - 48px) / 3);
-     background: var(--white-background);
- }
  
  
