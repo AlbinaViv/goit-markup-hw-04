@@ -160,7 +160,7 @@
     transform: translateX(-50%) translateY(-50%);
     opacity: 1;
 
-    
+
 }
  .hero-button:hover {
      background-color: var(--pressed-state);
@@ -419,7 +419,6 @@
     line-height: 1.5; 
     letter-spacing: 0.02em;
     display: flex;
-    flex-wrap: wrap;
     max-width: 264px;
     margin-bottom: 16px; 
 
@@ -427,6 +426,7 @@
 .footer-cont {
     display: flex;
     align-items: baseline;
+    
 }
 .footer-title {
     color: var(--white-background);
@@ -436,7 +436,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
-.soc-media-grup {
+.soc-media-footer {
     display: flex; 
     gap: 16px; 
 
