@@ -323,7 +323,6 @@
     align-items: center;
     justify-content: center;
     color: var(--subtle-text);
-    border-color: var(--pressed-state);  
  }
 
  .link-client:hover {
