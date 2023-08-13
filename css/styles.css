@@ -251,7 +251,10 @@ header .container {
      pointer-events: none;
      
  }
-
+ .backdrop.is-hidden .modal {
+    transform: translateX(-50%) translateY(70%);
+    opacity: 0;
+  }
 
 .backdrop {
    position: fixed; 
