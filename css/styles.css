@@ -46,7 +46,6 @@
     margin-right: 76px;
     flex-shrink: 0;
     align-items: center;
-    position:relative;
 }
 
 .accent {
@@ -62,14 +61,16 @@
 .list-nav-h:focus {
     color: var(--pressed-state);
 }   
-.list-nav:after {
-    content: "";
+.list-nav-h.current::after {
+    content: ""; 
+    width: 100%;
     position: absolute; 
     left: 0;
     bottom: -1px;
     height: 4px;
     background-color: var(--pressed-state);
     border-radius: 2px; 
+    color: var(--pressed-state);
 }
 .list-nav {
     display: flex;
@@ -584,7 +585,7 @@
     align-items: center;
     position: relative; 
  }
- .list-nav-h, .link-mail-tel {
+.link-mail-tel {
      padding: 24px 0;
      gap: 40px;
      color: var(--dark);
@@ -597,7 +598,20 @@
      text-decoration: none;
 
  }
- 
+ .list-nav-h {
+    padding: 24px 0;
+    gap: 40px;
+    color: var(--dark);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    list-style: none;
+    text-decoration: none;
+    position: relative;
+
+}
  
  /* ------doing section------*/
  
