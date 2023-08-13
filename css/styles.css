@@ -327,10 +327,10 @@
 
  .link-client:hover {
     color: var(--pressed-state);
+    border-color:var(--pressed-state);
  }
 
  .link-client:focus {
-    border-color:var(--pressed-state);
     color: var(--pressed-state);
  }
 
