@@ -313,6 +313,10 @@
 .icon-client {
     fill: currentColor;
 }  
+.customers-list-client {
+    width: 168px;
+    height: 88px;
+}
 
 .link-client {
     display: flex;
