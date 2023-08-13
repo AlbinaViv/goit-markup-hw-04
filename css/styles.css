@@ -306,7 +306,7 @@ header .container {
 }
 .modal-btn:hover .modal-btn-icon,
 .modal-btn:focus .modal-btn-icon {
-  fill: var(--white-background-color);
+  fill: var(--white-background);
 }
 
  /*advan-section*/
