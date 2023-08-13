@@ -245,7 +245,7 @@ header .container {
 
  /*---modal windovs---*/
 
- .beckdrop.is-hidden {
+ .backdrop.is-hidden {
      visibility: hidden;
      opacity: 0;
      pointer-events: none;
@@ -275,8 +275,7 @@ header .container {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%) scale(1);
-    background: var(--modal-background);
+    transform: translate(-50%, -50%) scale(1);    background: var(--modal-background);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-btn {
