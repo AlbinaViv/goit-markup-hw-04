@@ -59,10 +59,10 @@
     color: var(--pressed-state);
 }
 
-.list-nav:focus {
+.list-nav-h:focus {
     color: var(--pressed-state);
 }   
-.list-nav::after {
+.list-nav:after {
     content: "";
     position: absolute; 
     left: 0;
